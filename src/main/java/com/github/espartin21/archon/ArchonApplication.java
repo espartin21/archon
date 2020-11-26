@@ -1,4 +1,4 @@
-package com.lambdachi.archon;
+package com.github.espartin21.archon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
