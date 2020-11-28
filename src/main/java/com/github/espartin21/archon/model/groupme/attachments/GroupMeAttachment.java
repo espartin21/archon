@@ -10,9 +10,9 @@ import lombok.ToString;
 @NoArgsConstructor
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type")
 @JsonSubTypes({
-        @JsonSubTypes.Type(value = GroupMeImage.class, name = "GroupMeImage"),
-        @JsonSubTypes.Type(value = GroupMeLocation.class, name = "GroupMeLocation"),
-        @JsonSubTypes.Type(value = GroupMeMention.class, name = "GroupMeMention")
+        @JsonSubTypes.Type(value = GroupMeImage.class, name = "image"),
+        @JsonSubTypes.Type(value = GroupMeLocation.class, name = "location"),
+        @JsonSubTypes.Type(value = GroupMeMention.class, name = "mentions")
 })
 public abstract class GroupMeAttachment {
     String type;
