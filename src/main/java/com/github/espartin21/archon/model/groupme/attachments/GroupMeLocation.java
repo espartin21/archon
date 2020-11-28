@@ -8,7 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GroupMeLocation extends GroupMeAttachment {
-    final String type = "location";
+//    final String type = "location";
     String lng;
     String lat;
     String name;

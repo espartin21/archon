@@ -1,11 +1,14 @@
 package com.github.espartin21.archon.model.groupme;
 
 import com.github.espartin21.archon.model.groupme.attachments.GroupMeAttachment;
+
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public class GroupMeInfo {
     GroupMeAttachment[] attachments; // TODO: change this after making class type
     private String avatar_url;
