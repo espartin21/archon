@@ -1,8 +1,6 @@
 package com.github.espartin21.archon.model.groupme.attachments;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import org.javatuples.Pair;
 
@@ -11,6 +9,8 @@ import java.util.List;
 @Getter
 @Setter
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class GroupMeMention extends GroupMeAttachment {
     List<Pair<Integer, Integer>> loci;
     final String type = "mentions";
