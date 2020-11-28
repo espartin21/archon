@@ -15,6 +15,6 @@ public class TestController {
 
     @PostMapping("/callback")
     public void callback(@RequestBody GroupMeInfo groupMeInfo) {
-        System.out.println(groupMeInfo);
+        System.out.println(groupMeInfo.getAttachments());
     }
 }
