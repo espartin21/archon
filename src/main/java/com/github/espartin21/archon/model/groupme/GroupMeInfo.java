@@ -10,7 +10,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class GroupMeInfo {
-    GroupMeAttachment[] attachments; // TODO: change this after making class type
+    GroupMeAttachment[] attachments;
     private String avatar_url;
     private int created_at;
     private String group_id;

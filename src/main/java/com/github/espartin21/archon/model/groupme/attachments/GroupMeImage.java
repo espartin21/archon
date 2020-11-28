@@ -8,6 +8,5 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GroupMeImage extends GroupMeAttachment {
-//    final String type = "image";
     String url;
 }
