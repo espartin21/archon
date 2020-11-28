@@ -8,7 +8,7 @@ import lombok.ToString;
 
 @ToString
 @NoArgsConstructor
-@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY)
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type")
 @JsonSubTypes({
         @JsonSubTypes.Type(value = GroupMeImage.class, name = "GroupMeImage"),
         @JsonSubTypes.Type(value = GroupMeLocation.class, name = "GroupMeLocation"),
