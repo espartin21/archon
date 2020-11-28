@@ -20,6 +20,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// https://mvnrepository.com/artifact/org.javatuples/javatuples
+	compile group: 'org.javatuples', name: 'javatuples', version: '1.2'
 	implementation 'com.google.code.gson:gson:2.8.6'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'

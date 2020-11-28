@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Arrays;
+
 @RestController
 public class TestController {
     @GetMapping("/ping")
@@ -15,6 +17,6 @@ public class TestController {
 
     @PostMapping("/callback")
     public void callback(@RequestBody GroupMeInfo groupMeInfo) {
-        System.out.println(groupMeInfo.getAttachments());
+        System.out.println(Arrays.toString(groupMeInfo.getAttachments()));
     }
 }

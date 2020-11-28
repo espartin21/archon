@@ -1,5 +1,6 @@
 package com.github.espartin21.archon.model.groupme.groupinfo.util;
 
+import com.github.espartin21.archon.model.groupme.attachments.GroupMeAttachment;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,5 +10,5 @@ public class GroupMeGroupInfoMessagePreview {
     String nickname;
     String text;
     String image_url;
-    // TODO: Add attachments
+    GroupMeAttachment[] attachments;
 }
