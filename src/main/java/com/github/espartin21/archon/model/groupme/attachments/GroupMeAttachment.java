@@ -14,6 +14,6 @@ import lombok.ToString;
         @JsonSubTypes.Type(value = GroupMeLocation.class, name = "location"),
         @JsonSubTypes.Type(value = GroupMeMention.class, name = "mentions")
 })
-public abstract class GroupMeAttachment {
+public class GroupMeAttachment {
     String type;
 }
