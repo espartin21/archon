@@ -7,8 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class GroupMeGroupInfoMessagePreview {
-    String nickname;
-    String text;
-    String image_url;
-    GroupMeAttachment[] attachments;
+    private String nickname;
+    private String text;
+    private String image_url;
+    private GroupMeAttachment[] attachments;
 }

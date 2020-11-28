@@ -6,8 +6,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class GroupMeGroupInfoMessageInformation {
-    int count;
-    String last_message_id;
-    int last_message_created_at;
-    GroupMeGroupInfoMessagePreview preview;
+    private int count;
+    private String last_message_id;
+    private int last_message_created_at;
+    private GroupMeGroupInfoMessagePreview preview;
 }

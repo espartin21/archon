@@ -10,6 +10,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GroupMeMention extends GroupMeAttachment {
-    List<List<Integer>> loci;
-    List<String> user_ids;
+    private List<List<Integer>> loci;
+    private List<String> user_ids;
 }

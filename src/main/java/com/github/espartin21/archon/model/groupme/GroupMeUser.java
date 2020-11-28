@@ -6,12 +6,12 @@ import lombok.Setter;
 @Getter
 @Setter
 public class GroupMeUser {
-    String user_id;
-    String nickname;
-    String image_url;
-    String id;
-    boolean muted;
-    boolean autokicked;
-    String[] roles;
-    String name;
+    private String user_id;
+    private String nickname;
+    private String image_url;
+    private String id;
+    private boolean muted;
+    private boolean autokicked;
+    private String[] roles;
+    private String name;
 }
