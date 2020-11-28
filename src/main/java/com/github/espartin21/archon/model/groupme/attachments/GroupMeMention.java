@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GroupMeMention extends GroupMeAttachment {
-    List<Pair<Integer, Integer>> loci;
+    List<List<Integer>> loci;
 //    final String type = "mentions";
     List<String> user_ids;
 }
