@@ -1,4 +1,4 @@
-package com.github.espartin21.archon.model.groupme.util;
+package com.github.espartin21.archon.model.groupme.groupinfo.util;
 
 import lombok.Getter;
 import lombok.Setter;

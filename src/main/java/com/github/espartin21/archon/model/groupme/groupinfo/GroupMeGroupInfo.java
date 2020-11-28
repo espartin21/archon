@@ -1,6 +1,7 @@
-package com.github.espartin21.archon.model.groupme;
+package com.github.espartin21.archon.model.groupme.groupinfo;
 
-import com.github.espartin21.archon.model.groupme.util.GroupMeGroupInfoMessageInformation;
+import com.github.espartin21.archon.model.groupme.GroupMeUser;
+import com.github.espartin21.archon.model.groupme.groupinfo.util.GroupMeGroupInfoMessageInformation;
 import lombok.Getter;
 import lombok.Setter;
 
