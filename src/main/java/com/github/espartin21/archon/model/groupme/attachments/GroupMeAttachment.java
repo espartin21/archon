@@ -15,5 +15,5 @@ import lombok.ToString;
         @JsonSubTypes.Type(value = GroupMeMention.class, name = "mentions")
 })
 public class GroupMeAttachment {
-    String type;
+    public String type;
 }
