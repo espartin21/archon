@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "groupme.api",
+      "type": "java.lang.String",
+      "description": "Base URL for GroupMe API."
+    },
+    {
+      "name": "groupme.api-key",
+      "type": "java.lang.String",
+      "description": "GroupMe API key."
+    },
+    {
+      "name": "groupme.group-id",
+      "type": "java.lang.String",
+      "description": "GroupMe group ID."
+    }
+  ] }
