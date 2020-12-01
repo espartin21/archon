@@ -25,8 +25,4 @@ public class TestController {
     public void members() {
         System.out.println(groupMeService.getGroupInfo());
     }
-
-    @PostMapping("/callback")
-    public void callback(@RequestBody GroupMeInfo groupMeInfo) {
-    }
 }
